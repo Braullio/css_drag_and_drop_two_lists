@@ -1,0 +1,29 @@
+<html>
+<header>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>TITULO</title>
+</header>
+
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+        <div class="list_container">
+            <h3>List A</h3>
+            <ul id="ul01" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <li id="li1a" draggable="true" ondragstart="drag(event)">Item 1 A</li>
+                <li id="li2a" draggable="true" ondragstart="drag(event)">Item 2 A</li>
+                <li id="li3a" draggable="true" ondragstart="drag(event)">Item 3 A</li>
+            </ul>
+        </div>
+        <div class="list_container"> 
+            <h3>List B</h3>
+            <ul id="ul02" ondrop="drop(event)"  ondragover="allowDrop(event)">
+                <li id="li1b" draggable="true" ondragstart="drag(event)">Item 1 B</li>
+                <li id="li2b" draggable="true" ondragstart="drag(event)">Item 2 B</li>
+                <li id="li3b" draggable="true" ondragstart="drag(event)">Item 3 B</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

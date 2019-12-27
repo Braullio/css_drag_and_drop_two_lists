@@ -1,0 +1,39 @@
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.list_container{
+    width: 300px;
+    height: 450px;
+    margin: 0 40px;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16),
+                0 3px 6px rgba(0, 0, 0, 23);
+}
+ul{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+li{
+    padding: 15px 20px;
+    color: black;
+    cursor: grad;
+}
+li:nth-child(even){
+    background-color: white;
+}
+li:nth-child(odd){
+    background-color: lightblue;
+}
+h3{
+    color: purple;
+    padding: 15px 20px;
+}
